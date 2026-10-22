@@ -16,7 +16,7 @@ const ToolsPage = () => {
           className="max-w-6xl mx-auto space-y-12"
         >
           <div className="text-center space-y-4">
-            <h1 className="text-4xl md:text-5xl font-bold">
+            <h1 className="text-4xl md:text-5xl font-inter">
               Herramientas & Tecnologías
             </h1>
 

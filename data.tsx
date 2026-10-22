@@ -1,4 +1,4 @@
-import { Wrench, BriefcaseBusiness, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Phone, Facebook, Instagram, User } from "lucide-react";
+import { Wrench, BriefcaseBusiness, HomeIcon, UserRound, Linkedin, Phone,Github, User } from "lucide-react";
 import { text } from "stream/consumers";
 export const itemsNavbar = [
     {
@@ -39,24 +39,16 @@ export const itemsNavbar = [
 export const socialNetworks = [
 
   {
-    id: 2,
+    id: 1,
     logo: <Linkedin size={30} strokeWidth={1} />,
     src: "https://www.linkedin.com/in/jose-alberto-ascencion-silvestre-ba55b533a/",
   },
   {
-    id: 3,
-    logo: <Twitter size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
-    id: 4,
-    logo: <Facebook size={30} strokeWidth={1} />,
-    src: "#!",
-  },
-  {
-    id: 5,
-    logo: <Instagram size={30} strokeWidth={1} />,
-    src: "#!",
-  },
+    id: 2,
+    logo: <Github size={30} strokeWidth={1} />,
+    src: "https://github.com/Joss-Devo",
+  }
+ 
+ 
  
 ];

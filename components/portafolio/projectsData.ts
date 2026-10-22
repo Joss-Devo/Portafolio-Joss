@@ -3,7 +3,7 @@ export const projects = [
     id: 1,
     title: "Catálogo Interactivo Auto-Administrable",
     description:
-      "Sistema completo de tienda online con carga dinámica de imágenes y panel administrativo.",
+      "Desarrollé un sistema completo de tienda en línea con un catálogo público para los clientes y un panel administrativo donde el dueño del negocio gestiona todo sin necesidad de tocar código.",
     image: "/imagen/joya.png",
     tech: ["Laravel", "PHP", "JavaScript","Bootstrap", "MySQL"],
     gallery: [
@@ -36,7 +36,7 @@ export const projects = [
     id: 2,
     title: "Sistema Biblioteca",
     description:
-      "Gestión de préstamos, inventario y usuarios con panel administrativo.",
+      "Sistema web para gestionar el inventario de una biblioteca, con panel administrativo. Reemplaza el control manual por un registro centralizado y fácil de consultar. Desarrollado con Angular, TypeScript, MongoDB y Node.js.",
     image: "/imagen/biblioteca.png",
     tech: ["Angular", "TypeScript", "MongoDB", "Node.js"],
      gallery: [
@@ -52,7 +52,7 @@ export const projects = [
     id: 3,
     title: "Fanpage Musical",
     description:
-      "Plataforma multimedia para comunidad musical usando Supabase.",
+      "Plataforma multimedia para una comunidad musical, construida con Next.js y Supabase para el almacenamiento de datos.",
     image: "/imagen/star.png",
     tech: ["React","TypeScript","Next.js", "Supabase"],
      gallery: [
@@ -75,7 +75,7 @@ export const projects = [
     id: 4,
     title: "Proyecto de Certificación Java",
     description:
-      "Plataforma para gestionar y certificar conocimientos en programación Java.",
+      "Plataforma para gestionar y certificar conocimientos en programación Java, con registro de usuarios y resultados en una base de datos. Desarrollada con Java, PostgreSQL y NetBeans.",
     image: "/imagen/java.png",
     tech: ["Java", "PostgreSQL","Netbeans"],
      gallery: [

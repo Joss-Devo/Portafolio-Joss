@@ -52,7 +52,7 @@ const ProjectGallery = ({ images, onClose }: Props) => {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.95 }}
             transition={{ duration: 0.4 }}
-            className="max-h-full max-w-full object-contain rounded-2xl shadow-2xl"
+            className="w-full max-w-3xl h-full  object-contain rounded-2xl shadow-2xl"
           />
         </AnimatePresence>
       </div>

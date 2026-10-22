@@ -19,7 +19,7 @@ const ToolCard = ({ name, description, icon: Icon }: ToolCardProps) => {
         <Icon size={40} strokeWidth={1.5} />
       </div>
 
-      <h3 className="text-xl font-semibold mb-2">{name}</h3>
+      <h3 className="text-xl font-inter mb-2">{name}</h3>
 
       <p className="text-gray-400 text-sm">
         {description}

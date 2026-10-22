@@ -37,8 +37,8 @@ const FeaturedProject = ({
         />
 
         {/* Contenido */}
-        <div className="absolute inset-0 flex flex-col justify-center p-12">
-          <h2 className="text-4xl font-bold mb-4">{title}</h2>
+        <div className="absolute inset-0 flex flex-col justify-center p-6 md:p-12">
+          <h2 className="text-4xl font-inter mb-4">{title}</h2>
 
           <p className="max-w-xl text-gray-300 mb-6">{description}</p>
 
@@ -47,7 +47,7 @@ const FeaturedProject = ({
             {tech.map((item, i) => (
               <span
                 key={i}
-                className="px-4 py-1 rounded-full bg-secondary/20 text-secondary text-sm"
+                className="px-4 py-1 rounded-full bg-secondary/20 font-inter text-sm"
               >
                 {item}
               </span>
@@ -58,7 +58,7 @@ const FeaturedProject = ({
           {gallery.length > 0 && (
             <button
               onClick={() => setOpen(true)}
-              className="px-6 py-3 rounded-xl bg-secondary text-white font-semibold hover:scale-105 transition w-max"
+              className="px-6 py-3 rounded-xl bg-secondary text-white font-inter hover:scale-105 transition w-max"
             >
               Ver imágenes del proyecto
             </button>

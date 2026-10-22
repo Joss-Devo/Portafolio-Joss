@@ -44,7 +44,7 @@ const ContactPage = () =>   {
 
           {/* HEADER */}
           <div className="text-center space-y-4">
-            <h1 className="text-5xl font-bold">
+            <h1 className="text-5xl font-inter">
               Contacto
             </h1>
             <p className="text-gray-400 max-w-xl mx-auto">
@@ -123,7 +123,7 @@ const ContactPage = () =>   {
 
               <button
                 type="submit"
-                className="w-full py-3 rounded-xl bg-secondary text-white font-semibold hover:scale-105 transition"
+                className="w-full py-3 rounded-xl bg-secondary text-white font-inter hover:scale-105 transition"
               >
                 Enviar Mensaje
               </button>
