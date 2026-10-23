@@ -57,8 +57,8 @@ o echar un vistazo a mis trabajos anteriores a continuación.
 
             {/* BOTÓN DESCARGAR CV */}
             <motion.a
-              href="/cv/CV_Jose_Alberto_Ascencion_Silvestre_FullStack.pdf"
-              download="CV_Jose_Alberto_Ascencion_Silvestre_FullStack.pdf"
+              href="/cv/Jose_Alberto_Ascencion_Silvestre_CV.pdf"
+              download="Jose_Alberto_Ascencion_Silvestre_CV.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="inline-flex items-center gap-2 rounded-full bg-secondary px-6 py-3 font-inter text-background shadow-lg transition-opacity hover:opacity-90"
