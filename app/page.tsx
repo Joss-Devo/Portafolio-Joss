@@ -23,9 +23,9 @@ export default function Home() {
               {/* Imagen */}
               <div className="relative w-full h-full rounded-full border-2 border-secondary overflow-hidden shadow-2xl md:w-full md:h-full">
                 <img
-                  src="/imagen/joss1.jpg"
+                  src="/imagen/joss4.png"
                   alt="Avatar José Alberto"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-[0%_12%]"
                 />
               </div>
             </div>
